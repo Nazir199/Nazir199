@@ -5,10 +5,12 @@
     margin: auto;
     text-align: center;
     gap: 30px;
-    background-color: beige;
+ 
    
 }
-
+body{
+    background-color: beige;
+}
 .card{
     height: 390px;
    width: 100%;
