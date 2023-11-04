@@ -1,12 +1,32 @@
 .main{
     display: grid;
-    grid-template-columns:repeat(3,1fr);
-    width: 99%;
+    grid-template-columns:repeat(4,1fr);
+    width: 95%;
     margin: auto;
-    gap: 10px;
     text-align: center;
-    
+    gap: 30px;
+    background-color: beige;
+   
 }
-.main img{
-    width: 100%;
+
+.card{
+    height: 390px;
+   width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+    background-color: antiquewhite;
+}
+
+.card>img:nth-child(1){
+  
+  border-radius: 15px 15px 0px 0px;
+   width: 100%;
+}
+body>h2,body>p{
+    text-align: center;
+    width: 35%;
+    margin:auto;
+    color: grey;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
