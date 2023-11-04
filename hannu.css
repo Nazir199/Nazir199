@@ -1,9 +1,12 @@
-.container{
-    width: 90%;
-    display: flex;
+.main{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    width: 99%;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
     
-
 }
-.container img{
+.main img{
     width: 100%;
 }
